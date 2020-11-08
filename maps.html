@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Карты и маршрут</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="maps-style.css">
+</head>
+<body>
+	<header>
+			<ul>
+				<li><a href="main.html" class="sh">Главная</a></li>
+				<li><a href="leisure.html" class="sh">Чем заняться</a></li>
+				<li><a href="news.html" class="sh">Новости</a></li>
+				<li><a href="about.html" class="sh">О парке</a></li>
+			</ul>
+			<a href="maps.html"><h1>Карта и маршрут</h1></a>
+	</header>
+	<div id="strip"></div>
+	<div class="text">
+		<h2 id="word">Как доехать</h2>
+		<h4 style="margin-left: 1%">Координаты для GPS: 54°23’31.6"с.ш. 48°34’29.6"в.д.</h4>
+		<p style="margin-left: 1%">Наш парк, как видно по его названию, расположен на прибрежной территории. Добраться до него можно одним из следующих способов:</p>
+		<ul style="margin-left: 3%">
+			<li><b>На троллейбусе:</b> № 9, 12, 14, 15 или на <b>маршрутном такси:</b> № 22, 47, 84. Выходить на остановке «Парк Прибрежный».</li>
+			<li><b>На такси:</b> Такси Везёт, ULTAXI, Сервис заказа такси «Максим», Эконом-такси, Сервис такси «Девятка», Яндекс Такси, Такси Вояж, Express-Taxi, Караван-такси, Социальное Такси.</li>
+		</ul>
+	</div>
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0cb9fff5098e4b7492039b9b40fa0be85d7b56513cdd8197ac555850e5e601bc&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=true"></script>
+	<footer id="block">
+		<div class="foot" style="grid-area: leisure;">
+			<a href="leisure.html"><h3 class="section">Чем заняться</h3></a>
+			<p>Аттракционы</p>
+			<a href="https://vk.com/greencafe73"><p>Green Cafe</p></a>
+			<p>Прокат инвентаря</p>
+			<p>Контактный зоопарк</p>
+			<a href="https://vk.com/na_igre73"><p>Extreme Land</p></a>
+			<p>Беседки</p>
+		</div>
+		<div class="foot" style="grid-area: facts;">
+			<a href="about.html"><h3 class="section">О парке</h3></a>
+			<p>Природные особенности</p>
+			<p>История</p>
+		</div>
+		<div style="grid-area: check_in;">
+			<form>
+				<h3><p>Хотите быть в курсе новостей парка?</p>
+				<p>Зарегестрируйте свою почту</p></h3>
+				<p><b>Email:</b> <input type="email" name="login"></p>
+				<p>Через небольшой промежуток времени вам придёт письмо с потверждением.</p>
+				<p><input id="footer_butt" type="submit" value="Зарегистрировать"></p>
+			</form>
+		</div>
+		<div class="foot" style="grid-area: news;">
+			<a href="news.html"><h3>Новости</h3></a>
+		</div>
+		<div class="foot" style="grid-area: maps;">
+			<a href="maps.html"><h3>Карта и маршруты</h3></a>
+		</div>
+		<div style="grid-area: wishes;">
+			<form>
+				<h3>Хотите улучшить наш парк?</h3>
+				<p>Мы с радостью прочтём ваши пожелания</p>
+				<p>Введите свои данные и идеи</p>
+				<p><b>Ваше имя:</b><br>
+   				<input type="text" size="40">
+				<p><b>Email:</b> <input type="email"></p>
+				<p><b>Пожелания</b><br>
+   				<textarea name="comment" cols="40" rows="3"></textarea></p>
+  				<p><input id="footer_butt" type="submit" value="Отправить"></p>
+			</form>
+		</div>
+		<div class="footer_strip" style="grid-area: strip;"></div>
+		<p style="grid-area: year; margin-left: 2%; font-size: 16px; font-family: 'Montserrat';">2020 - Парк Прибрежный</p>
+		<div style="grid-area: icon;">
+			<a href="https://twitter.com/pribrezhnyy"><img class="fab_fa-twit" src="images/twitter-brands.svg"></a>
+			<a href="https://vk.com/parkng"><img class="fab_fa-vk" src="images/vk-brands.svg"></a>
+		</div>
+	</footer>
+	<script src="date.js"></script>
+</body>
+</html>

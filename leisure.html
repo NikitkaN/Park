@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Чем заняться</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="leisure-style.css">
+</head>
+<body>
+	<header>
+			<ul>
+				<li><a href="main.html" class="sh">Главная</a></li>
+				<li><a href="news.html" class="sh">Новости</a></li>
+				<li><a href="about.html" class="sh">О парке</a></li>
+				<li><a href="maps.html" class="sh">Карта и маршрут</a></li>
+			</ul>
+			<a href="leisure.html"><h1>Чем заняться</h1></a>
+	</header>
+	<div id="strip"></div>
+	<div class="options">
+		<div style="grid-area: rides;">
+			<div class="block_img">
+				<img class="preview" src="images/Leisure/Preview_1.jpg">
+				<h3 id="word">Аттракционы</h3>
+			</div>
+		</div>
+		<div style="grid-area: green_cafe;">
+			<div class="block_img">
+				<a href="https://vk.com/greencafe73"><img class="preview" src="images/Leisure/Preview_2.png" style="border-radius: 50%;">
+				<h3 id="word">Green Cafe</h3></a>
+			</div>
+		</div>
+		<div style="grid-area: inventory_rental;">
+			<div class="block_img">
+				<img class="preview" src="images/Leisure/Preview_3.jpg">
+				<h3 id="word">Прокат инвентаря</h3>
+			</div>
+		</div>
+		<div style="grid-area: zoo;">
+			<div class="block_img">
+				<img class="preview" src="images/Leisure/Preview_4.jpg">
+				<h3 id="word">Контактный зоопарк</h3>
+			</div>
+		</div>
+		<div style="grid-area: extreme_land;">
+			<div class="block_img">
+				<a href="https://vk.com/na_igre73"><img class="preview" src="images/Leisure/Preview_5.jpg">
+				<h3 id="word">Extreme Land</h3></a>
+			</div>
+		</div>
+		<div style="grid-area: gazebos;">
+			<div class="block_img">
+				<img class="preview" src="images/Leisure/Preview_6.jpg">
+				<h3 id="word">Беседки</h3>
+			</div>
+		</div>
+	</div>
+	<footer id="block">
+		<div class="foot" style="grid-area: leisure;">
+			<a href="leisure.html"><h3 class="section">Чем заняться</h3></a>
+			<p>Аттракционы</p>
+			<a href="https://vk.com/greencafe73"><p>Green Cafe</p></a>
+			<p>Прокат инвентаря</p>
+			<p>Контактный зоопарк</p>
+			<a href="https://vk.com/na_igre73"><p>Extreme Land</p></a>
+			<p>Беседки</p>
+		</div>
+		<div class="foot" style="grid-area: facts;">
+			<a href="about.html"><h3 class="section">О парке</h3></a>
+			<p>Природные особенности</p>
+			<p>История</p>
+		</div>
+		<div style="grid-area: check_in;">
+			<form>
+				<h3><p>Хотите быть в курсе новостей парка?</p>
+				<p>Зарегестрируйте свою почту</p></h3>
+				<p><b>Email:</b> <input type="email" name="login"></p>
+				<p>Через небольшой промежуток времени вам придёт письмо с потверждением.</p>
+				<p><input id="footer_butt" type="submit" value="Зарегистрировать"></p>
+			</form>
+		</div>
+		<div class="foot" style="grid-area: news;">
+			<a href="news.html"><h3>Новости</h3></a>
+		</div>
+		<div class="foot" style="grid-area: maps;">
+			<a href="maps.html"><h3>Карта и маршруты</h3></a>
+		</div>
+		<div style="grid-area: wishes;">
+			<form>
+				<h3>Хотите улучшить наш парк?</h3>
+				<p>Мы с радостью прочтём ваши пожелания</p>
+				<p>Введите свои данные и идеи</p>
+				<p><b>Ваше имя:</b><br>
+   				<input type="text" size="40">
+				<p><b>Email:</b> <input type="email"></p>
+				<p><b>Пожелания</b><br>
+   				<textarea name="comment" cols="40" rows="3"></textarea></p>
+  				<p><input id="footer_butt" type="submit" value="Отправить"></p>
+			</form>
+		</div>
+		<div class="footer_strip" style="grid-area: strip;"></div>
+		<p style="grid-area: year; margin-left: 2%; font-size: 16px; font-family: 'Montserrat';">2020 - Парк Прибрежный</p>
+		<div style="grid-area: icon;">
+			<a href="https://twitter.com/pribrezhnyy"><img class="fab_fa-twit" src="images/twitter-brands.svg"></a>
+			<a href="https://vk.com/parkng"><img class="fab_fa-vk" src="images/vk-brands.svg"></a>
+		</div>
+	</footer>
+	<script src="date.js"></script>
+</body>
+</html>
